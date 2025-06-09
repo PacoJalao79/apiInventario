@@ -42,9 +42,9 @@
 		</dependency>
 
 		<dependency>
-  			<groupId>org.projectlombok</groupId>
-  			<artifactId>lombok</artifactId>
-  			<scope>provided</scope>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId><!-- O la última disponible -->
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- JPA / Hibernate -->
@@ -57,6 +57,7 @@
 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
 			<artifactId>mariadb-java-client</artifactId>
+			<version>3.3.1</version>
 		</dependency>
 
 		<!-- Springdoc OpenAPI con Swagger UI -->
