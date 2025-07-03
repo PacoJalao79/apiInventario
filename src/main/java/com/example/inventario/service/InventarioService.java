@@ -13,7 +13,7 @@ import com.example.inventario.repository.InventarioRepository;
 @Service
 public class InventarioService {
 
-     @Autowired
+    @Autowired
     private InventarioRepository inventarioRepository;
 
     public int obtenerStockPorIdProducto(Integer idProducto) {
